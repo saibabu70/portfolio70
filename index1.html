@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.saibabu.com</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3caca062c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <!-- Navigation / Heading-->
+      <nav>
+        <img src="images/logo2.png" class="logo">
+        <!---->
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Projects</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>College Student
+        </p>
+        <h1><span>AIML Student </span>| Passionate About PYTHON, <br> Web technologies and Machine Learning</h1>
+
+      </div>
+    </div>
+  </div>
+  <!--About ME-->
+   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/saibabu.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About ME</h1>
+          <p>As a current B.Tech student specializing in Artificial Intelligence and Machine Learning, I am passionate about exploring the exciting potential of these cutting-edge technologies.
+            I am open to learning new things and getting involved with new projects that can help me learn or apply all that I have learned throughout my career.</p>
+            <div class="tab-titles">
+             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+           <!--  <p class="tab-links" onclick="opentab('projects')">Projects</p> -->
+             <p class="tab-links" onclick="opentab('Education')">Education</p>
+             <p class="tab-links" onclick="opentab('intern')">Internship</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming Languages:</span> Python,Java(Basics)<br></li>
+                <li><span>Web Technologies : </span>HTML5,CSS3,Javascript,ReactJS,SQL(Basics)<br></li>
+                <!--<li><span>Sql</span><br></li>
+                <li><span>Machine Learing</span><br></li> -->
+
+              </ul>
+            </div>
+            <!--
+            <div class="tab-contents " id="projects">
+              <ul>
+                <h2>Project 1</h2>
+                <li>Project Title: <span class="html1"> MY COLLEGE WEBSITE (BVCITS)</span></li>
+                <p>Developed a college website for BVCITS showcasing its infrastructure, campuses, 
+                  and offered courses etc. Implemented HTML, CSS, and JavaScript to create an 
+                  interactive platform providing comprehensive information for prospective students.</p>
+                <li>Technologies Used:- <span class="html1">Html, CSS, Javascript</span></li>
+                <li>Project Link:  <a href="https://saibabu70.github.io/bvc1/" target="_blank">Visit BVC Website</a></li>
+   
+
+              </ul>
+              <ul>
+                <h2>Project 2</h2>
+                <li>Project Title: <span class="html1">Navigating Low User ENGAGEMENT</span></li>
+                <li>Technologies Used:- <span class="html1"> Python,Machine learning algorithms</span></li>
+                <li>Project Link:  <a href="https://saibabu70.github.io/bvc1/" target="_blank">Visit BVC Website</a></li>
+   
+
+              </ul>
+            </div>
+
+            -->
+          
+            <div class="tab-contents" id="Education">
+              <ul>
+                <h4>BVCITS Engineering College, Amalapuram</h4>
+                <p><strong>B.Tech</strong></p>
+                <p>September 2022 - 2025</p>
+                <p>CSE - Artificial Intelligence and Machine Learning</p>
+                <p>80%</p>
+            
+                <h4>BVCITS Engineering College, Amalapuram</h4>
+                <p><strong>Diploma</strong></p>
+                <p>September 2019 – 2022</p>
+                <p>Mechanical Engineering</p>
+                <p>87%</p>
+            
+                <h4>High School, Challapalli</h4>
+                <p><strong>10th</strong></p>
+                <p>June 2014 - 2019</p>
+                <p>10.0 Grade</p>
+
+              </ul>
+            </div>
+            <div class="tab-contents " id="intern">
+              <ul>
+                <h4>1. Web Technologies (HTML ,CSS, JavaScript) & Soft Skills at HQL Edutech</h4>
+                <p>
+                   Completed a 2-month internship at HQL Edutech, gaining hands-on experience in web 
+                  technologies such as HTML5, CSS3, and JavaScript. Additionally, honed soft skills including 
+                  communication, teamwork, and problem-solving through interactive training sessions and 
+                  practical exercise.<br>
+                    
+                </p><h4>
+                  2. AWS Cloud Computing Confirmation at APSSDC  - 2 Months
+                </h4>
+                <p>
+                  Participated in an AWS Cloud Computing Confirmation internship facilitated by APSSDC, 
+acquiring practical skills in cloud infrastructure management and deployment. Engaged in 
+hands-on projects and training sessions to deepen understanding of AWS services and best 
+practices
+                </p>
+
+              </ul>
+            </div>
+        </div>
+
+      </div>
+    </div>
+   </div>
+
+   <!-- Services -->
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-sharp fa-solid fa-face-smile fa-fade"></i>
+          <h3>College (BVCITS) Website</h3>
+
+          <p>Developed a college website for BVCITS showcasing its infrastructure, campuses, 
+            and offered courses etc. Implemented HTML, CSS, and JavaScript to create an 
+            interactive platform providing comprehensive information for prospective students.
+          <h4>  Technologies Used:- HTML,CSS,JavaScript</h4>
+            </p>
+          </h3>Project Link :- <a href="https://saibabu70.github.io/bvc1/">View</a><h3>   </h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h3>Creation of Intuitive Noke-Pro with Bot Assistance (APP)</h3>
+          <p>The project aims to create a secure and intuitive note-taking application that 
+            prioritizes user-friendliness and global accessibility. Users can log in to keep 
+            track of important information and thoughts, with the added feature of a built -
+            in assistant "BVC BOT" for answering questions and receiving responses</p>
+            <h4>Technologies used :- XML,Java,Firebase, Open-AI API</h4>
+          <a href="#">Project Link</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>Automated Car</h2><p>The Smart Home Automation project leverages the power of IoT to create an intelligent and automated living environment. This system integrates various sensors, actuators, and microcontrollers to enable seamless control and monitoring of home appliances and devices remotely.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+
+    </div>
+   </div>
+   <!---- Portfolio-->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you the talented people around the world
+            </p>
+           
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square fa-shake"></i></a>
+
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" alt="">
+          <div class="layer">
+            <h3>Music app</h3>
+            <p>The app connects you the talented people around the world
+            </p>
+          
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square fa-shake"></i></a>
+
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" alt="">
+          <div class="layer">
+            <h3>Online Shopping
+            </h3>
+            <p>The app connects you the talented people around the world
+            </p>
+            
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square fa-shake"></i></a>
+
+          </div>
+        </div>
+       
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   <!-- Contact-->
+   <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i>koppisettisaibabu70@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i>9542641564</p>
+          <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/saibabu-koppisetti-89b910268/"><i class="fa-brands fa-linkedin fa-bounce fa-sm" style="color: #1485db;"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          
+        </div>
+        <a href="images/saibabu lms resume.pdf" download="resume" class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+                  <span id="msg"></span>
+            </div>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>copyright &copy; Saibabu Portfolio <i class="fas fa-heart"></i> || All rights Reserved</p>
+      </div>
+    </div>
+   
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxlPpL5UEjcreM1oRxQpFeWfbggD6Yqi3Q0Uonpw1c_QR3dbDrP7u5ggOI0XChA8QJDpA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML=""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
